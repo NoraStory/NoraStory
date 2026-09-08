@@ -53,8 +53,6 @@ AI 工程师，2026 届。主力 Python，Rust / C / TypeScript 看场合上场�
 ### pulse
 
 <div align="center">
-  <img height="158" src="https://github-readme-stats.vercel.app/api?username=NoraStory&show_icons=true&hide_border=true&bg_color=00000000&title_color=00B368&text_color=4F8A6C&icon_color=00F48E&ring_color=00F48E" alt="GitHub stats">
-  <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoraStory&layout=compact&hide_border=true&bg_color=00000000&title_color=00B368&text_color=4F8A6C" alt="Top languages">
   <img height="158" src="https://streak-stats.demolab.com/?user=NoraStory&theme=transparent&hide_border=true&ring=00F48E&fire=00F48E&currStreakLabel=00B368&sideLabels=00B368&currStreakNum=00F48E&sideNums=00F48E&dates=4F8A6C" alt="GitHub streak">
 </div>
 
