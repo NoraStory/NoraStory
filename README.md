@@ -19,8 +19,6 @@ AI 工程师，2026 届。主力 Python，Rust / C / TypeScript 看场合上场�
 **搞清楚模型底下是什么。** 在啃 CUDA、Triton 和 PyTorch internals，
 偶尔用 C 从最底层造点东西，免得忘了机器是怎么算账的。
 
-### stack
-
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00F48E)
@@ -48,9 +46,9 @@ AI 工程师，2026 届。主力 Python，Rust / C / TypeScript 看场合上场�
 
 ### 写字的地方
 
-[CSDN](https://blog.csdn.net/storyseekee) · [Gitee](https://gitee.com/storyseeker) · [Email](mailto:storyseeker@163.com)
+[CSDN](https://blog.csdn.net/storyseekee) · [Gitee](https://gitee.com/storyseeker)
 
-### pulse
+### 数字
 
 <div align="center">
   <img height="158" src="https://streak-stats.demolab.com/?user=NoraStory&theme=transparent&hide_border=true&ring=00F48E&fire=00F48E&currStreakLabel=00B368&sideLabels=00B368&currStreakNum=00F48E&sideNums=00F48E&dates=4F8A6C" alt="GitHub streak">
