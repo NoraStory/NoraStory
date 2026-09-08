@@ -14,36 +14,75 @@
       <stop offset="0" stop-color="#0A8A4F" stop-opacity="0.05"/>
       <stop offset="1" stop-color="#0A8A4F" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A8A4F" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#0A8A4F" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#0A8A4F" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="type1">
+      <rect x="332" y="90" width="0" height="26">
+        <animate attributeName="width" calcMode="discrete" values="0;12;24;36;48;60;72" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" dur="1.2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="type2">
+      <rect x="332" y="164" width="0" height="26">
+        <animate attributeName="width" calcMode="discrete" values="0;12;24;36;48;60;72;84;96;108;120;132;144;156" keyTimes="0;0.0769;0.1538;0.2308;0.3077;0.3846;0.4615;0.5385;0.6154;0.6923;0.7692;0.8462;0.9231;1" begin="1.8s" dur="1.56s" fill="freeze"/>
+      </rect>
+    </clipPath>
   </defs>
 
-  <rect width="1200" height="320" fill="#FFFFFF"/>
+  <g>
+    <animate attributeName="opacity" values="1;1;0.97;1;0.99;1" keyTimes="0;0.68;0.7;0.73;0.9;1" dur="5.2s" repeatCount="indefinite"/>
 
-  <text x="1132" y="262" text-anchor="end" font-family="'Courier New', ui-monospace, monospace" font-size="150" font-weight="bold" fill="#0A8A4F" fill-opacity="0.05" letter-spacing="4">storyseeker</text>
+    <rect width="1200" height="320" fill="#FFFFFF"/>
 
-  <rect x="36" y="28" width="1128" height="264" rx="10" fill="#FBFEFC" stroke="#0A8A4F" stroke-opacity="0.45" stroke-width="1.5"/>
-  <rect x="36" y="28" width="1128" height="264" rx="10" fill="url(#scan)"/>
-  <rect x="36" y="28" width="1128" height="264" rx="10" fill="url(#fade)"/>
-  <line x1="36" y1="64" x2="1164" y2="64" stroke="#0A8A4F" stroke-opacity="0.3"/>
+    <text x="1132" y="262" text-anchor="end" font-family="'Courier New', ui-monospace, monospace" font-size="150" font-weight="bold" fill="#0A8A4F" fill-opacity="0.05" letter-spacing="4">storyseeker</text>
 
-  <circle cx="64" cy="46" r="5.5" fill="none" stroke="#0A8A4F" stroke-opacity="0.75" stroke-width="1.5"/>
-  <circle cx="86" cy="46" r="5.5" fill="none" stroke="#0A8A4F" stroke-opacity="0.5" stroke-width="1.5"/>
-  <circle cx="108" cy="46" r="5.5" fill="none" stroke="#0A8A4F" stroke-opacity="0.3" stroke-width="1.5"/>
-  <text x="600" y="51" text-anchor="middle" font-family="'Courier New', ui-monospace, monospace" font-size="14" fill="#0A8A4F" fill-opacity="0.6" letter-spacing="3">storyseeker@github: ~</text>
+    <rect x="36" y="28" width="1128" height="264" rx="10" fill="#FBFEFC" stroke="#0A8A4F" stroke-opacity="0.45" stroke-width="1.5"/>
+    <rect x="36" y="28" width="1128" height="264" rx="10" fill="url(#scan)"/>
+    <rect x="36" y="28" width="1128" height="264" rx="10" fill="url(#fade)"/>
+    <rect x="36" y="-70" width="1128" height="50" fill="url(#sweep)">
+      <animate attributeName="y" from="-70" to="322" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+    <line x1="36" y1="64" x2="1164" y2="64" stroke="#0A8A4F" stroke-opacity="0.3"/>
 
-  <g font-family="'Courier New', ui-monospace, SFMono-Regular, Menlo, monospace" filter="url(#glow)">
-    <text x="68" y="108" font-size="20">
-      <tspan fill="#0A8A4F">storyseeker@github:~$ </tspan><tspan fill="#043F24">whoami</tspan>
-    </text>
-    <text x="92" y="142" font-size="19" fill="#0A8A4F" fill-opacity="0.85">AI 工程师 · 2026 届 — Python / Rust / C / TypeScript</text>
+    <circle cx="64" cy="46" r="5.5" fill="none" stroke="#0A8A4F" stroke-opacity="0.75" stroke-width="1.5"/>
+    <circle cx="86" cy="46" r="5.5" fill="none" stroke="#0A8A4F" stroke-opacity="0.5" stroke-width="1.5"/>
+    <circle cx="108" cy="46" r="5.5" fill="none" stroke="#0A8A4F" stroke-opacity="0.3" stroke-width="1.5"/>
+    <text x="600" y="51" text-anchor="middle" font-family="'Courier New', ui-monospace, monospace" font-size="14" fill="#0A8A4F" fill-opacity="0.6" letter-spacing="3">storyseeker@github: ~</text>
 
-    <text x="68" y="182" font-size="20">
-      <tspan fill="#0A8A4F">storyseeker@github:~$ </tspan><tspan fill="#043F24">cat focus.txt</tspan>
-    </text>
-    <text x="92" y="216" font-size="19" fill="#0A8A4F" fill-opacity="0.85">让模型真的干活 — RAG × Agent，在乎评估数字而不是 demo</text>
-    <text x="92" y="248" font-size="19" fill="#0A8A4F" fill-opacity="0.85">搞清楚模型底下是什么 — CUDA · Triton · PyTorch internals</text>
+    <g font-family="'Courier New', ui-monospace, SFMono-Regular, Menlo, monospace" filter="url(#glow)">
+      <text x="68" y="108" font-size="20" fill="#0A8A4F">storyseeker@github:~$ </text>
+      <text x="332" y="108" font-size="20" fill="#043F24" clip-path="url(#type1)">whoami</text>
 
-    <text x="68" y="280" font-size="20">
-      <tspan fill="#0A8A4F">storyseeker@github:~$ </tspan><tspan fill="#0A8A4F">█<animate attributeName="opacity" calcMode="discrete" values="1;0" dur="1.06s" repeatCount="indefinite"/></tspan>
-    </text>
+      <text x="92" y="142" font-size="19" fill="#0A8A4F" fill-opacity="0.85" opacity="0">AI 工程师 · 2026 届 — Python / Rust / C / TypeScript
+        <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.01s" fill="freeze"/>
+      </text>
+
+      <text x="68" y="182" font-size="20" fill="#0A8A4F" opacity="0">storyseeker@github:~$
+        <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.01s" fill="freeze"/>
+      </text>
+      <text x="332" y="182" font-size="20" fill="#043F24" clip-path="url(#type2)">cat focus.txt</text>
+
+      <text x="92" y="216" font-size="19" fill="#0A8A4F" fill-opacity="0.85" opacity="0">让模型真的干活 — RAG × Agent，在乎评估数字而不是 demo
+        <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.01s" fill="freeze"/>
+      </text>
+      <text x="92" y="248" font-size="19" fill="#0A8A4F" fill-opacity="0.85" opacity="0">搞清楚模型底下是什么 — CUDA · Triton · PyTorch internals
+        <animate attributeName="opacity" from="0" to="1" begin="3.65s" dur="0.01s" fill="freeze"/>
+      </text>
+
+      <text x="68" y="280" font-size="20" fill="#0A8A4F" opacity="0">storyseeker@github:~$
+        <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.01s" fill="freeze"/>
+      </text>
+
+      <text x="332" y="108" font-size="20" fill="#0A8A4F">█
+        <animate attributeName="x" calcMode="discrete" values="332;344;356;368;380;392;404" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" dur="1.2s" fill="freeze"/>
+        <animate attributeName="x" calcMode="discrete" values="332;344;356;368;380;392;404;416;428;440;452;464;476;488" keyTimes="0;0.0769;0.1538;0.2308;0.3077;0.3846;0.4615;0.5385;0.6154;0.6923;0.7692;0.8462;0.9231;1" begin="1.8s" dur="1.56s" fill="freeze"/>
+        <set attributeName="x" to="332" begin="3.8s" fill="freeze"/>
+        <set attributeName="y" to="182" begin="1.8s" fill="freeze"/>
+        <set attributeName="y" to="280" begin="3.8s" fill="freeze"/>
+        <animate attributeName="opacity" calcMode="discrete" values="1;0" dur="1.06s" begin="3.8s" repeatCount="indefinite"/>
+      </text>
+    </g>
   </g>
 </svg>
