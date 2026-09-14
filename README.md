@@ -1,52 +1,38 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoraStory/NoraStory/main/assets/flow-dark.svg">
-  <img src="https://raw.githubusercontent.com/NoraStory/NoraStory/main/assets/flow-light.svg" alt="a flow field rendered as ascii, looping at 4fps" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoraStory/NoraStory/main/assets/banner-dark.svg">
+  <img src="https://raw.githubusercontent.com/NoraStory/NoraStory/main/assets/banner-light.svg" alt="NoraStory" width="100%">
 </picture>
 
-<br/>
+<br>
 
-```
-visitor@norastory:~$ cat about.txt
-```
+i build small, sharp tools — first for my own machine, then for whoever finds
+them useful. happiest close to the metal, honest enough to grab a framework
+when the problem isn't the machine.
 
-i build small, sharp tools — first for my own machine, then for anyone
-who shares the itch. happiest one layer above the metal, but honest
-enough to reach for a framework when the problem isn't the machine.
+**what i reach for**
 
-```
-visitor@norastory:~$ ls currently/
-```
+![rust](https://img.shields.io/badge/rust-CE412B?style=flat-square&logo=rust&logoColor=white)
+![c](https://img.shields.io/badge/c-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![c++](https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![go](https://img.shields.io/badge/go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white)
+![typescript](https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![svelte](https://img.shields.io/badge/svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+![tauri](https://img.shields.io/badge/tauri-FFC131?style=flat-square&logo=tauri&logoColor=black)
 
-```
-rust        systems work; the borrow checker is a sparring partner
-c / c++     where i learned memory the hard way, and kept going anyway
-go          algorithms and channels; tools that stay up for weeks
-python      agents, glue, and the occasional thinking-out-loud
-ts / svelte whatever needs a face; tauri when that face needs a desk
-```
+**how i work**
 
-```
-visitor@norastory:~$ cat operating-notes.txt
-```
+| | |
+|:---|:---|
+| **local-first** | your data stays on your machine; sync is a choice, not a default |
+| **read the source** | docs describe intent — code tells the truth |
+| **three strikes** | a tool that annoys me three times gets rewritten |
+| **quiet software** | no telemetry, no popups, no dark patterns |
 
-```
-local-first     data stays on your machine; sync is a choice, not a default
-read the source docs describe intent. source confesses truth.
-three strikes   a tool that annoys me three times gets rewritten
-quiet software  no telemetry, no popups, no dark patterns
-```
-
-```
-visitor@norastory:~$ echo $CONTACT
-```
+**find me**
 
 issues and discussions — i read everything. slow to reply, quick to fix.
 
-```
-visitor@norastory:~$ exit
-logout
-```
+<br>
 
-<br/>
-
-<sub>the header is a sixteen-frame flow field plotted offline into an svg flipbook · these words were typed by hand, no generator consulted</sub>
+<sub>banner drawn by hand in svg · words typed by a human</sub>
