@@ -1,38 +1,23 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoraStory/NoraStory/main/assets/banner-dark.svg">
-  <img src="https://raw.githubusercontent.com/NoraStory/NoraStory/main/assets/banner-light.svg" alt="NoraStory" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img src="./assets/banner-light.svg" alt="会绘制工具路径的机械绘图机动画" width="100%">
 </picture>
 
-<br>
+我做小而锋利的工具。先给自己的机器用，再给碰巧需要它的人。喜欢贴着底层写代码，也会在问题不在机器本身时坦率地拿起框架。
 
-i build small, sharp tools — first for my own machine, then for whoever finds
-them useful. happiest close to the metal, honest enough to grab a framework
-when the problem isn't the machine.
+**常用**
 
-**what i reach for**
+`Rust` `C` `C++` `Go` `Python` `TypeScript` `Svelte` `Tauri`
 
-![rust](https://img.shields.io/badge/rust-CE412B?style=flat-square&logo=rust&logoColor=white)
-![c](https://img.shields.io/badge/c-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![c++](https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![go](https://img.shields.io/badge/go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white)
-![typescript](https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![svelte](https://img.shields.io/badge/svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![tauri](https://img.shields.io/badge/tauri-FFC131?style=flat-square&logo=tauri&logoColor=black)
+**做事方式**
 
-**how i work**
+- **本地优先**：数据先留在自己的机器上，同步应该是选择，不是默认。
+- **读懂源码**：文档描述意图，代码才说真话。
+- **三次就重写**：同一个工具烦到我三次，就该重写了。
+- **安静软件**：不要遥测，不要弹窗，不要诱导性设计。
 
-| | |
-|:---|:---|
-| **local-first** | your data stays on your machine; sync is a choice, not a default |
-| **read the source** | docs describe intent — code tells the truth |
-| **three strikes** | a tool that annoys me three times gets rewritten |
-| **quiet software** | no telemetry, no popups, no dark patterns |
+**找我**
 
-**find me**
+有 issue 或讨论都可以。回得慢，修得认真。
 
-issues and discussions — i read everything. slow to reply, quick to fix.
-
-<br>
-
-<sub>banner drawn by hand in svg · words typed by a human</sub>
+<sub>手工绘制 SVG · 页面不加载第三方统计 · 只留一点动画</sub>
