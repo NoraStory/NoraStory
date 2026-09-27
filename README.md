@@ -1,6 +1,14 @@
-## storyseeker
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="storyseeker" width="800">
+</picture>
 
 AI 工程师，2026 届。主力 Python，Rust / C / TypeScript 看场合上场。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,rust,c,ts,go&theme=dark">
+  <img src="https://skillicons.dev/icons?i=py,rust,c,ts,go&theme=light" alt="" height="30">
+</picture>
 
 我对两个方向感兴趣，它们碰巧在同一个问题上相遇：
 
@@ -13,10 +21,10 @@ AI 工程师，2026 届。主力 Python，Rust / C / TypeScript 看场合上场�
 
 ### 在做的东西
 
-- [KeyVault-AI](https://github.com/NoraStory/KeyVault-AI) — 本地的 AI 密钥与配置管理中枢，Tauri v2 + Rust + Svelte
-- [deepseek-harness](https://github.com/NoraStory/deepseek-harness) — 给 DeepSeek 写的插件化 harness，Everything is a Plugin
-- [AgenticLearningSystem](https://github.com/NoraStory/AgenticLearningSystem) — 本地 agentic 学习系统，陪自己学 C++ 和 Python
-- [algomind](https://github.com/NoraStory/algomind) — 算法练习，Go
+- **[KeyVault-AI](https://github.com/NoraStory/KeyVault-AI)**：本地的 AI 密钥与配置管理中枢，Tauri v2 + Rust + Svelte
+- **[deepseek-harness](https://github.com/NoraStory/deepseek-harness)**：给 DeepSeek 写的插件化 harness，Everything is a Plugin
+- **[AgenticLearningSystem](https://github.com/NoraStory/AgenticLearningSystem)**：本地 agentic 学习系统，陪自己学 C++ 和 Python
+- **[algomind](https://github.com/NoraStory/algomind)**：算法练习，Go
 
 ### 写字的地方
 
@@ -24,4 +32,4 @@ AI 工程师，2026 届。主力 Python，Rust / C / TypeScript 看场合上场�
 
 ---
 
-<sub>tools i reach for: FastAPI · LangChain/LangGraph · Milvus · Docker · Tauri</sub>
+<sub>tools i reach for: FastAPI, LangChain / LangGraph, Milvus, Docker, Tauri</sub>

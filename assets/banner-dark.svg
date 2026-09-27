@@ -1,0 +1,11 @@
+<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="160" fill="none"/>
+  <text x="40" y="88" font-family="'Courier New', Courier, monospace" font-size="52" font-weight="bold" fill="#e6edf3" letter-spacing="-1">storyseeker</text>
+  <rect x="42" y="104" width="56" height="5" fill="#2dd4bf"/>
+  <text x="42" y="132" font-family="'Courier New', Courier, monospace" font-size="15" fill="#8b949e">rag / agents / cuda / triton</text>
+  <g fill="#2dd4bf" opacity="0.55">
+    <circle cx="700" cy="40" r="3"/><circle cx="724" cy="40" r="3"/><circle cx="748" cy="40" r="3"/>
+    <circle cx="700" cy="64" r="3"/><circle cx="724" cy="64" r="3"/><circle cx="748" cy="64" r="3"/>
+    <circle cx="700" cy="88" r="3"/><circle cx="724" cy="88" r="3"/>
+  </g>
+</svg>
