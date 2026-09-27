@@ -1,35 +1,23 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="storyseeker" width="800">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img src="./assets/banner-light.svg" alt="会绘制工具路径的机械绘图机动画" width="100%">
 </picture>
 
-AI 工程师，2026 届。主力 Python，Rust / C / TypeScript 看场合上场。
+我做小而锋利的工具。先给自己的机器用，再给碰巧需要它的人。喜欢贴着底层写代码，也会在问题不在机器本身时坦率地拿起框架。
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,rust,c,ts,go&theme=dark">
-  <img src="https://skillicons.dev/icons?i=py,rust,c,ts,go&theme=light" alt="" height="30">
-</picture>
+**常用**
 
-我对两个方向感兴趣，它们碰巧在同一个问题上相遇：
+`Rust` `C` `C++` `Go` `Python` `TypeScript` `Svelte` `Tauri`
 
-**让模型真的干活。** 做 RAG 和 Agent，在乎评估数字而不是 demo 效果。
-最近一个企业知识库项目：混合检索（Dense + BM25 / RRF）加重排，全链路用 RAGAS 量化，
-端到端延迟从 24.5s 压到 9.93s，recall 0.9898。
+**做事方式**
 
-**搞清楚模型底下是什么。** 在啃 CUDA、Triton 和 PyTorch internals，
-偶尔用 C 从最底层造点东西，免得忘了机器是怎么算账的。
+- **本地优先**：数据先留在自己的机器上，同步应该是选择，不是默认。
+- **读懂源码**：文档描述意图，代码才说真话。
+- **三次就重写**：同一个工具烦到我三次，就该重写了。
+- **安静软件**：不要遥测，不要弹窗，不要诱导性设计。
 
-### 在做的东西
+**找我**
 
-- **[KeyVault-AI](https://github.com/NoraStory/KeyVault-AI)**：本地的 AI 密钥与配置管理中枢，Tauri v2 + Rust + Svelte
-- **[deepseek-harness](https://github.com/NoraStory/deepseek-harness)**：给 DeepSeek 写的插件化 harness，Everything is a Plugin
-- **[AgenticLearningSystem](https://github.com/NoraStory/AgenticLearningSystem)**：本地 agentic 学习系统，陪自己学 C++ 和 Python
-- **[algomind](https://github.com/NoraStory/algomind)**：算法练习，Go
+有 issue 或讨论都可以。回得慢，修得认真。
 
-### 写字的地方
-
-[CSDN](https://blog.csdn.net/storyseekee) · [Gitee](https://gitee.com/storyseeker)
-
----
-
-<sub>tools i reach for: FastAPI, LangChain / LangGraph, Milvus, Docker, Tauri</sub>
+<sub>手工绘制 SVG · 页面不加载第三方统计 · 只留一点动画</sub>
