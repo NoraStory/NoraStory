@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
-  <title id="title">Nora Story 的个人工作台</title>
-  <desc id="desc">写工具，读源码。本地优先，安静软件。底部滚动展示常用技术栈。</desc>
+  <title id="title">Nora Story 的 GitHub 主页</title>
+  <desc id="desc">Nora Story，写 Python 和 Rust，在做本地工具。外圈展示项目，底部滚动展示常用技术栈。</desc>
   <defs>
     <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
       <path d="M80 0H0V80" fill="none" stroke="#F1F3EC" stroke-width="1" opacity=".045"/>
@@ -41,7 +41,7 @@
 
   <g class="meta" font-family="'Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="23" font-weight="600" letter-spacing="3">
     <text x="88" y="78" fill="#F1F3EC">@NoraStory</text>
-    <text x="1512" y="78" text-anchor="end" fill="#A9AFA3">NOTES FROM A SMALL WORKBENCH</text>
+    <text x="1512" y="78" text-anchor="end" fill="#A9AFA3">GITHUB.COM/NORASTORY</text>
   </g>
 
   <g font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="158" font-weight="800" letter-spacing="-7">
@@ -51,7 +51,7 @@
 
   <path class="line" d="M90 448H714" fill="none" stroke="#F4A62A" stroke-width="8"/>
   <g class="intro">
-    <text x="90" y="501" fill="#F1F3EC" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="36" font-weight="500" letter-spacing="1">我做小而锋利的工具，先给自己用。</text>
+    <text x="90" y="501" fill="#F1F3EC" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="36" font-weight="500" letter-spacing="1">写 Python 和 Rust，在做本地工具。</text>
     <rect class="cursor" x="700" y="470" width="15" height="35" fill="#F4A62A"/>
   </g>
 
@@ -62,11 +62,11 @@
     <circle cx="1240" cy="294" r="119" fill="none" stroke="#F4A62A" stroke-width="2"/>
     <g class="seal">
       <text fill="#F1F3EC" font-family="'Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="23" font-weight="600" letter-spacing="3">
-        <textPath xlink:href="#seal-path" href="#seal-path" textLength="1035" lengthAdjust="spacing">LOCAL FIRST · READ THE SOURCE · SMALL TOOLS · NO POPUPS · </textPath>
+        <textPath xlink:href="#seal-path" href="#seal-path" textLength="1035" lengthAdjust="spacing">KEYVAULT-AI · DEEPSEEK-HARNESS · AGENTIC LEARNING · ALGOMIND · </textPath>
       </text>
     </g>
-    <text x="1240" y="282" text-anchor="middle" fill="#F1F3EC" font-family="'Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="42" font-weight="700" letter-spacing="3">LOCAL</text>
-    <text x="1240" y="337" text-anchor="middle" fill="#F4A62A" font-family="'Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="42" font-weight="700" letter-spacing="3">FIRST.</text>
+    <text x="1240" y="282" text-anchor="middle" fill="#F1F3EC" font-family="'Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="38" font-weight="700" letter-spacing="3">CURRENT</text>
+    <text x="1240" y="337" text-anchor="middle" fill="#F4A62A" font-family="'Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="42" font-weight="700" letter-spacing="3">WORK.</text>
     <path d="M1198 365H1282" fill="none" stroke="#A9AFA3" stroke-width="2"/>
   </g>
 
